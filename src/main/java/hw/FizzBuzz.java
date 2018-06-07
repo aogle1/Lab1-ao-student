@@ -1,8 +1,11 @@
 package hw;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class FizzBuzz {
 
-  public static String[] fizzBuzz (int max){
+  public static List<String> fizzBuzz (int max){
     String[]ret = new String[max];
     for(int n=1;n<=max;n++){
       if((n%5==0)&&(n%3==0)){
@@ -23,7 +26,7 @@ public class FizzBuzz {
         }
       }
     }
-    return ret;
+    return Arrays.asList(ret);
   }
 }
 
