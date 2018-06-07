@@ -1,4 +1,4 @@
-[![Fizz Buzz]
+FizzBuzz
 # AO FizzBuzz Lab1
 
 This is a Lab1 Project for data structures.
