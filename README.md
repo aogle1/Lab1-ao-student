@@ -1,15 +1,18 @@
-[![Build Status](https://travis-ci.org/LoyolaChicagoCode/hello-java.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/hello-java)
+[![Fizz Buzz]
+# AO FizzBuzz Lab1
 
-This build will always fail because it has 2 examples of failing tests:
-one based on the source code, and one based on an incorrect test.
+This is a Lab1 Project for data structures.
 
-# Learning Objectives
+#Learning Objectives
 
-* Simple hello world example
-* Experience with Git source code management
-* Building with Gradle (using the Gradle wrapper)
-* Automated unit testing with JUnit
-* Continuous integration with Travis
+* Clone a git file, Then intialize in order to take the file and push to personal account.
+* Succesfully set up and run FizzBuzz logic
+* Refactor code to an array
+* Refactor again to a list
+* Re Push with every Refactor
+
+#Methodology 
+
 
 # System requirements
 
