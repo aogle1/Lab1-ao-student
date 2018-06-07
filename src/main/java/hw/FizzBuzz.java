@@ -2,26 +2,28 @@ package hw;
 
 public class FizzBuzz {
 
-  public static void fizzBuzz (int max){
+  public static String[] fizzBuzz (int max){
+    String[]ret = new String[max];
     for(int n=1;n<=max;n++){
       if((n%5==0)&&(n%3==0)){
-        System.out.println("fizzBuzz");
+        ret[n-1] = "fizzBuzz";
 
       }else{
         if((n%3)==0){
-          System.out.println("Fizz");
+          ret[n-1] = "Fizz";
 
         }
         if((n%5)==0){
-          System.out.println("Buzz");
+          ret[n-1] = "Buzz";
 
         }
         if((n%3!=0)&&(n%5!=0)){
-          System.out.println(n);
+        ret[n-1] = Integer.toString(n);
 
         }
       }
     }
+    return ret;
   }
 }
 

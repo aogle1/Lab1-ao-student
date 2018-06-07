@@ -15,7 +15,10 @@ public class Main {
                 System.err.println("The argument entered must be an integer ");
                 System.exit(1);
             }
-            FizzBuzz.fizzBuzz(max);
+            String[]ret = FizzBuzz.fizzBuzz(max);
+            for (String s: ret){
+                System.out.println(s);
+            }
         }
     }
 
